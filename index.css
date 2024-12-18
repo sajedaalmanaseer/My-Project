@@ -16,7 +16,6 @@
 
 body { 
     font-family: "Inter", serif; 
-    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -30,7 +29,7 @@ body {
 
     text-align: center;
     padding: 40px 33px;
-    width: 300px;
+    width: 315px;
     color:var(--text-clr);
     background-color: var(--card-bg-clr);
     border-radius: 10px;
@@ -53,15 +52,15 @@ img{
 .buttons{
     display:flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     margin-top: 15px;
 }
 
 .button{ 
-    border-radius: 6px;
+    border-radius: 7px;
     background-color:var(--btn-bg-clr);
     color:var(--text-clr) ;
-    padding: 15px 10px ;
+    padding: 10px;
     cursor: pointer;
    
 
